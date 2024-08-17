@@ -1,0 +1,98 @@
+/* Existing Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: #0466c8; /* Primary color */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Budget Page Specific Styles */
+.form-section {
+    background-color: #ffffff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+.form-section h2 {
+    color: #0466c8; /* Secondary color */
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.form-group label {
+    font-size: 18px;
+    color: #0466c8;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.cta-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #0466c8; /* Secondary color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0353a4;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

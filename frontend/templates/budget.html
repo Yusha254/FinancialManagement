@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Planner</title>
+    <link rel="stylesheet" href="../static/styles/budgetStyles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Plan Your Budget with Ease!</h1>
+        <p>Input your recurring expenses and income to manage your budget effectively.</p>
+    </header>
+
+    <div class="container">
+
+        <!-- Recurring Expenses Form -->
+        <div class="form-section">
+            <h2>Recurring Expenses</h2>
+            <form id="expensesForm">
+                <div class="form-group">
+                    <label for="housing">Housing:</label>
+                    <input type="number" id="housing" name="housing" placeholder="Enter amount for Housing">
+                </div>
+                <div class="form-group">
+                    <label for="transportation">Transportation:</label>
+                    <input type="number" id="transportation" name="transportation" placeholder="Enter amount for Transportation">
+                </div>
+                <div class="form-group">
+                    <label for="entertainment">Entertainment:</label>
+                    <input type="number" id="entertainment" name="entertainment" placeholder="Enter amount for Entertainment">
+                </div>
+                <div class="form-group">
+                    <label for="personalCare">Personal Care:</label>
+                    <input type="number" id="personalCare" name="personalCare" placeholder="Enter amount for Personal Care">
+                </div>
+                <div class="form-group">
+                    <label for="debtPayments">Debt Payments:</label>
+                    <input type="number" id="debtPayments" name="debtPayments" placeholder="Enter amount for Debt Payments">
+                </div>
+                <div class="form-group">
+                    <label for="savings">Savings:</label>
+                    <input type="number" id="savings" name="savings" placeholder="Enter amount for Savings">
+                </div>
+                <button type="submit" class="cta-button">Next</button>
+            </form>
+        </div>
+
+        <!-- Income Form -->
+        <div class="form-section">
+            <h2>Income Details</h2>
+            <form id="incomeForm">
+                <div class="form-group">
+                    <label for="incomeAmount">Income Amount:</label>
+                    <input type="number" id="incomeAmount" name="incomeAmount" placeholder="Enter your income amount">
+                </div>
+                <div class="form-group">
+                    <label for="incomeDate">Date of Payment:</label>
+                    <input type="date" id="incomeDate" name="incomeDate">
+                </div>
+                <div class="form-group">
+                    <label for="incomeType">Type of Income:</label>
+                    <input type="text" id="incomeType" name="incomeType" placeholder="Enter type of income (e.g., Salary, Freelance)">
+                </div>
+                <button type="submit" class="cta-button">Submit</button>
+            </form>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Financial Management System. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
